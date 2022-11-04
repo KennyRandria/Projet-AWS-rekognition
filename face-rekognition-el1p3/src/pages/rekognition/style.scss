@@ -1,0 +1,33 @@
+.reko {
+    width: 100%;
+    padding: 24px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    .header{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        gap: 25px;
+        width: 100%;
+        background: #fff;
+        padding: 24px 32px;
+        border-radius: 15px;
+        position: relative;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        background-color: #fff;
+        padding: 24px 32px;
+        border-radius: 15px;
+    }
+    .ant-btn{
+        border: none;
+    }
+}
+
